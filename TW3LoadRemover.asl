@@ -1,22 +1,18 @@
 // @notLoading: false when loading, true otherwise
-// @menuState:  0 while in main menu
 
 state("witcher3", "standard")
 {
 	bool notLoading : 0x02CCB638;
-	byte menuState  : 0x02AA4525;
 }
 
 state("witcher3", "gog_goty")
 {
 	bool notLoading : 0x02BF3608;
-	byte menuState  : 0x02BF7702;
 }
 
 state("witcher3", "old_patch")
 {
 	bool notLoading : 0x02A0BA98;
-	byte menuState  : 0x02A8DB11;
 }
 
 init

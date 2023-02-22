@@ -17,7 +17,7 @@ state("witcher3", "old_patch")
 
 state("witcher3", "complete_edition_dx11")
 {
-	bool notLoading : 0x05010151;
+	bool notLoading : 0x051C9EE8;
 }
 
 state("witcher3", "complete_edition_dx12")

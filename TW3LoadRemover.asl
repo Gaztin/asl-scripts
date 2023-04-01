@@ -41,7 +41,7 @@ init
 		case "3.0.19.14336": { version = "gog_goty"; } break;
 		case "3.0.4.58000":  { version = "old_patch"; } break;
 
-		case "4.0.1.8807":
+		case "4.0.1.10918":
 		{
 			var filePath      = proc.FileName;
 			var directoryName = new DirectoryInfo(filePath).Parent.Name;

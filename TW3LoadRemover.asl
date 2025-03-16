@@ -17,12 +17,12 @@ state("witcher3", "old_patch")
 
 state("witcher3", "complete_edition_dx11")
 {
-	bool notLoading : 0x051C6E50;
+	bool notLoading : 0x056F17C0;
 }
 
 state("witcher3", "complete_edition_dx12")
 {
-	bool notLoading : 0x0563EE42;
+	bool notLoading : 0x054A5F14;
 }
 
 init
@@ -41,7 +41,7 @@ init
 		case "3.0.19.14336": { version = "gog_goty"; } break;
 		case "3.0.4.58000":  { version = "old_patch"; } break;
 
-		case "4.0.1.10918":
+		case "4.0.1.37654":
 		{
 			var filePath      = proc.FileName;
 			var directoryName = new DirectoryInfo(filePath).Parent.Name;
